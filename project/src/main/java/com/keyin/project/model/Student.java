@@ -12,7 +12,7 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String password;
-    private String address;
+    private String email;
 
     public Student() {
     }
@@ -29,15 +29,15 @@ public class Student {
         return password;
     }
 
-    public void setPassword(String name) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
-    public String getAddress() {
-        return address;
+    public String getEmail() {
+        return email;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
