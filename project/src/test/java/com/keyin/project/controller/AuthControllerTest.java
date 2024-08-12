@@ -8,5 +8,5 @@ class AuthControllerTest {
 
     @Test
     void login() {
-    }it
+    }
 }
